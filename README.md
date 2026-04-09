@@ -19,7 +19,34 @@ VLM hallucinations may stem not just from weak image attention, but from excessi
 
 <div style="text-align: justify"
 
-Sarcasm is a specific type of irony which involves discerning what is said from what is meant. Detecting sarcasm depends not only on the literal content of an utterance but also on non-verbal cues such as speaker’s tonality, facial expressions and conversational context. However, current multimodal models struggle with complex tasks like sarcasm detection, which require identifying relevant cues across modalities and pragmatically reasoning over them to infer the speaker’s intention. To explore these limitations in VideoLMs, we introduce MUStReason, a diagnostic benchmark enriched with annotations of modality-specific relevant cues and underlying reasoning steps to identify sarcastic intent. In addition to benchmarking sarcasm classification performance in VideoLMs, using MUStReason we quantitatively and qualitatively evaluate the generated reasoning by disentangling the problem into perception and reasoning and aim to pinpoint the current gaps in these VideoLMs. Furthermore, to facilitate structured pragmatic reasoning, we propose PragCoT, a framework that steers VideoLMs to focus on implied intentions over literal meaning, a property core to detecting sarcasm.
+Vision-language model (VLM) hallucination
+is commonly linked to imbalanced allocation
+of attention across input modalities: system,
+image and text. However, existing mitigation
+strategies tend towards an image-centric inter-
+pretation of these imbalances, often prioritis-
+ing increased image attention while giving less
+consideration to the roles of the other modal-
+ities. In this study, we evaluate a more holis-
+tic, system-mediated account, which attributes
+these imbalances to functionally redundant sys-
+tem weights that reduce attention to image and
+textual inputs. We show that this framework
+offers a useful empirical perspective on the yes-
+bias, a common form of hallucination in which
+VLMs indiscriminately respond yes. Causally
+redistributing attention from the system modal-
+ity to image and textual inputs substantially
+suppresses this bias, often outperforming exist-
+ing approaches. We further present evidence
+suggesting that system-mediated attention im-
+balances contribute to the yes-bias by encour-
+aging a default reliance on coarse input repre-
+sentations, which are effective for some tasks
+but ill-suited to others. Taken together, these
+findings firmly establish system attention as a
+key factor in VLM hallucination and highlight
+its potential as a lever for mitigation
 
 
 ## 📬 Contact
