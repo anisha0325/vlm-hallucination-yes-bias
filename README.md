@@ -53,9 +53,9 @@ its potential as a lever for mitigation
 
 For questions, feel free to contact:
 
-*Tsan Tsai Chan**  
+*Tsan Tsai Chan* 
 📧 [tsch00001@stud.uni-saarland.de](mailto:tsch00001@stud.uni-saarland.de)  
-Anisha Saha
+*Anisha Saha*
 📧 [ansaha@mpi-inf.mpg.de](mailto:ansaha@mpi-inf.mpg.de)  
 🔗 [anisha0325.github.io](https://anisha0325.github.io/)
 
