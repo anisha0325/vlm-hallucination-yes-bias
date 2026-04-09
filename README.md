@@ -1,5 +1,5 @@
 # System-Mediated Attention Imbalances Make Vision-Language Models Say Yes
-*Tsan Tsai Chan*, [*Varsha Suresh*](https://sites.google.com/view/varsha-suresh/), [*Anisha Saha*](https://anisha0325.github.io/), [*Michael Hahn*](https://www.mhahn.info/), [*Vera Demberg*](https://www.uni-saarland.de/lehrstuhl/demberg/members/verademberg.html)*  
+*Tsan Tsai Chan*, [*Varsha Suresh*](https://sites.google.com/view/varsha-suresh/), [*Anisha Saha*](https://anisha0325.github.io/), [*Michael Hahn*](https://www.mhahn.info/), [*Vera Demberg*](https://www.uni-saarland.de/lehrstuhl/demberg/members/verademberg.html)  
  
 
 🚧 **Code is coming soon!** Stay tuned.  
@@ -11,7 +11,7 @@
 
 <div style="text-align: justify"
 
-<span style="color:#006c66;"><b>MUStReason</b></span> provides reasoning-aligned annotations that enable detailed evaluation of modality perception and inference failure which are key factors for assessing and improving pragmatic reasoning in multimodal models. In addition, the paper introduces <span style="color:#006c66;"><b>PragCoT</b></span>, a pragmatic reasoning framework for developing complex reasoning abilities in Video-LMs, through the integration of information from multiple modalities and the systematic resolution of sub-problems.
+VLM hallucinations may stem not just from weak image attention, but from excessive system-level attention that crowds out image and text signals. Rebalancing attention away from the system modality significantly reduces “yes-bias” and improves model reliability beyond image-focused fixes.
 
 ---
 
