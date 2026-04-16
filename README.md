@@ -1,4 +1,5 @@
 # System-Mediated Attention Imbalances Make Vision-Language Models Say Yes
+*Tsan Tsai Chan*, [*Varsha Suresh*](https://sites.google.com/view/varsha-suresh/), [*Anisha Saha*](https://anisha0325.github.io/), [*Michael Hahn*](https://www.mhahn.info/), [*Vera Demberg*](https://www.uni-saarland.de/lehrstuhl/demberg/members/verademberg.html)  
 
 ## Overview
 
