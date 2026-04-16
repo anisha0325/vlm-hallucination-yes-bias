@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository accompanies our 2026 ACL Findings paper. 
+This repository accompanies our 2026 ACL Findings paper ([arXiv 2601.12430](https://arxiv.org/pdf/2601.12430)). 
 
 The codebase implements attention intervention experiments on **LLaVA-1.5 7B**, allowing users to systematically analyse how attention weights to its three input modalities (text, image, and system prompts) contribute to model behaviour and hallucination. 
 
