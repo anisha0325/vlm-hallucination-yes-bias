@@ -1,0 +1,27 @@
+universe = vanilla
+executable = $(HOME)/y25_fm_text.sh
+
+# Define parameter values here
+dataset = pope
+text_alpha = 0.0
+redistribute_to = prop
+# Use full or reduced dataset (default = False)
+use_reduced = True
+
+# Pass them as arguments to the shell script
+arguments = $(dataset) $(text_alpha) $(redistribute_to) $(use_reduced)
+
+# Output files
+output = $(HOME)/y25_$(dataset)_fmtext.$(text_alpha).$(redistribute_to).$(use_reduced).$(ClusterId).$(ProcId).txt
+error = $(HOME)/y25_$(dataset)_fmtext.$(text_alpha).$(redistribute_to).$(use_reduced).$(ClusterId).$(ProcId).err
+log = $(HOME)/y25_$(dataset)_fmtext.$(text_alpha).$(redistribute_to).$(use_reduced).$(ClusterId).$(ProcId).log
+
+request_gpus = 1
+request_memory = 25GB
++WantGPULab = true
+
+requirements = (TARGET.Machine == "hopper-1.coli.uni-saarland.de" || \
+    TARGET.Machine == "hopper-2.coli.uni-saarland.de" || \
+    TARGET.Machine == "hopper-3.coli.uni-saarland.de")
+
+queue
